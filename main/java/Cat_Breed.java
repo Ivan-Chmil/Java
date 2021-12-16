@@ -1,0 +1,4 @@
+public enum Cat_Breed
+{
+    PERSIAN, SIAMESE, SPHYNX, BOMBAY, BENGAL, BRITISH_SHORTHAIR
+}
