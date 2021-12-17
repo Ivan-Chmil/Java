@@ -35,7 +35,7 @@ public class Cat extends Animal implements Comparable
     public int compareTo(Cat a)
     {
         System.out.println("Різниця у віці:");
-        return this.age-a.age;
+        return Math.abs(this.age-a.age);
     }
 
     @Override
@@ -72,12 +72,6 @@ public class Cat extends Animal implements Comparable
         }
     }
 
-//    public List<Cat> sortList(List<Cat> List4)
-//    {
-//        return Collections.sort(List4, Cat::compareTo);
-//    }
-
-    }
 
 
 
